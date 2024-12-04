@@ -303,10 +303,10 @@ The performance of the zero-shot transfer learning experiments on the BIOSCAN-5M
   <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_image.png" 
          alt="a" 
-         style="max-width: 300px; height: 300px;" />
+         style="max-width: 350px; height: 350px;" />
     <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_dna.png" 
          alt="b" 
-         style="max-width: 300px; height: 300px;" />
+         style="max-width: 350px; height: 350px;" />
   </div>
 </div>
 <div align="left">
