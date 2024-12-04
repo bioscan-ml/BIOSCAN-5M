@@ -272,80 +272,18 @@ For the open-world setting, we show genus-level accuracy (%) for unseen species,
 _Bold values indicate the best result, and italicized values indicate the second best._
 
 
-<table>
-  <tr>
-    <th><small>Model</small></th>
-    <th><small>Architecture</small></th>
-    <th><small>SSL-Pretraining</small></th>
-    <th><small>Tokens Seen</small></th>
-    <th><small>Fine-tuned Seen: Species</small></th>
-    <th><small>Linear Probe Seen: Species</small></th>
-    <th><small>1NN-Probe Unseen: Genus</small></th>
-  </tr>
-  <tr>
-    <td><small>CNN baseline</small></td>
-    <td><small>CNN</small></td>
-    <td><small>--</small></td>
-    <td><small>--</small></td>
-    <td><small>97.70</small></td>
-    <td><small>--</small></td>
-    <td><small><i>29.88</i></small></td>
-  </tr>
-  <tr>
-    <td><small>NT</small></td>
-    <td><small>Transformer</small></td>
-    <td><small>Multi-Species</small></td>
-    <td><small>300 B</small></td>
-    <td><small>98.99</small></td>
-    <td><small>52.41</small></td>
-    <td><small>21.67</small></td>
-  </tr>
-  <tr>
-    <td><small>DNABERT-2</small></td>
-    <td><small>Transformer</small></td>
-    <td><small>Multi-Species</small></td>
-    <td><small>512 B</small></td>
-    <td><small><i>99.23</i></small></td>
-    <td><small>67.81</small></td>
-    <td><small>17.99</small></td>
-  </tr>
-  <tr>
-    <td><small>DNABERT-S</small></td>
-    <td><small>Transformer</small></td>
-    <td><small>Multi-Species</small></td>
-    <td><small>~1,000 B</small></td>
-    <td><small>98.99</small></td>
-    <td><small><b>95.50</b></small></td>
-    <td><small>17.70</small></td>
-  </tr>
-  <tr>
-    <td><small>HyenaDNA</small></td>
-    <td><small>SSM</small></td>
-    <td><small>Human DNA</small></td>
-    <td><small>5 B</small></td>
-    <td><small>98.71</small></td>
-    <td><small>54.82</small></td>
-    <td><small>19.26</small></td>
-  </tr>
-  <tr>
-    <td><small>BarcodeBERT</small></td>
-    <td><small>Transformer</small></td>
-    <td><small>DNA barcodes</small></td>
-    <td><small>5 B</small></td>
-    <td><small>98.52</small></td>
-    <td><small>91.93</small></td>
-    <td><small>23.15</small></td>
-  </tr>
-  <tr>
-    <td><small><b>Ours</b></small></td>
-    <td><small>Transformer</small></td>
-    <td><small>DNA barcodes</small></td>
-    <td><small>7 B</small></td>
-    <td><small><b>99.28</b></small></td>
-    <td><small><i>94.47</i></small></td>
-    <td><small><b>47.03</b></small></td>
-  </tr>
-</table>
+| Model          | Architecture   | SSL-Pretraining  | Tokens Seen   | Fine-tuned Seen: Species | Linear Probe Seen: Species | 1NN-Probe Unseen: Genus |
+|----------------|----------------|------------------|---------------|--------------------------|---------------|-------------------------|
+| CNN baseline   | CNN            | --               | --            | 97.70                    | --            | *29.88*                 |
+| NT             | Transformer    | Multi-Species    | 300 B         | 98.99                    | 52.41         | 21.67                   |
+| DNABERT-2      | Transformer    | Multi-Species    | 512 B         | *99.23*                  | 67.81         | 17.99                   |
+| DNABERT-S      | Transformer    | Multi-Species    | ~1,000 B      | 98.99                    | **95.50**     | 17.70                   |
+| HyenaDNA       | SSM            | Human DNA        | 5 B           | 98.71                    | 54.82         | 19.26                   |
+| BarcodeBERT    | Transformer    | DNA barcodes     | 5 B           | 98.52                    | 91.93         | 23.15                   |
+| **Ours**       | Transformer    | DNA barcodes     | 7 B           | **99.28**                | *94.47*       | **47.03**               |
+
+
+
 
 ### Task-II: Zero-shot transfer learning 
 We follow the experimental setup recommended by [zero-shot clustering](https://arxiv.org/abs/2406.02465),
