@@ -35,3 +35,29 @@ The following table presents the DNA barcode statistics for various taxonomic ra
 **U.B:** Unique DNA Barcode Sequence  
 **P.D.** Pairwise Distance 
 
+## Pairwise Damerau-Levenshtein Distance Analysis of identical DNA barcodes
+
+<div align="center">
+  <img src="https://github.com/zahrag/BIOSCAN-5M/blob/main/BIOSCAN_images/repo_images/class_distance_distribution.png" 
+       alt="Examples of the original images with the bounding box detected by our cropping tool." />
+  <p><b>Figure 1</b>Distribution of pairwise distances of subgroups of class. The x-axis shows the subgroup
+categories sorted alphabetically.</p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/zahrag/BIOSCAN-5M/blob/main/BIOSCAN_images/repo_images/order_distance_distribution.png" 
+       alt="Examples of the original images with the bounding box detected by our cropping tool." />
+  <p><b>Figure 2</b>Distribution of pairwise distances of subgroups of order. The x-axis shows the subgroup
+categories sorted alphabetically.</p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/zahrag/BIOSCAN-5M/blob/main/BIOSCAN_images/repo_images/species_distance_distribution.png" 
+       alt="Examples of the original images with the bounding box detected by our cropping tool." />
+  <p><b>Figure 3</b>Distribution of pairwise distances of subgroups of species. Among the species, there are
+8,372 distinct subgroups with sufficient identical barcodes for calculating pairwise distances, which
+makes visualization challenging. To address this, the groups are sorted in descending order based
+on their mean distances and partitioned into 100 bins. These bins are used to plot the distribution
+of pairwise distances within the species rank. The mean distance of each bin is displayed along the
+x-axis.</p>
+</div>

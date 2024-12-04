@@ -5,7 +5,7 @@ BIOSCAN-5M crop and resize tools.
 <div align="center">
   <img src="https://github.com/zahrag/BIOSCAN-5M/blob/main/BIOSCAN_images/repo_images/area_frac.png" 
        alt="Examples of the original images with the bounding box detected by our cropping tool." />
-  <p><b>Figure 2:</b> Examples of the original images with the bounding box detected by our cropping tool.</p>
+  <p><b>Figure 1:</b> Examples of the original images with the bounding box detected by our cropping tool.</p>
 </div>
 
 ###### <h3> Cropping images

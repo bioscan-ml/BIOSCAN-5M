@@ -247,7 +247,7 @@ alt="b"
   </div>
 </div>
 <div align="left">
-  <p><b>Distribution of class- and (Insecta) order-level taxa</b> for seen and unseen data partitions. The distributions reflect that of known and newly-discovered species, respectively.</p>
+  <p><b>Figure 6: Distribution of class- and (Insecta) order-level taxa</b> for seen and unseen data partitions. The distributions reflect that of known and newly-discovered species, respectively.</p>
 </div>
 
 
@@ -260,7 +260,7 @@ Tokens are encoded and fed into a transformer model. The output embeddings are u
 
 <div align="center">
   <img src="BIOSCAN_images/repo_images/barcode_bert_n2.png" alt="Methodology for BarcodeBERT experiments." />
-  <p><b>Figure 9:</b> BarcodeBERT model architecture.
+  <p><b>Figure 7:</b> BarcodeBERT model architecture.
 </div>
 
 #### Results
@@ -294,7 +294,7 @@ expanded to operate on multiple modalities.
 
 <div align="center">
   <img src="BIOSCAN_images/repo_images/bioscan_zsc_n1.png" alt="Methodology for zero-shot clustering experiments." />
-  <p><b>Figure 10:</b> BIOSCAN-ZSC model architecture.
+  <p><b>Figure 8:</b> BIOSCAN-ZSC model architecture.
 </div>
 
 #### Results
@@ -311,7 +311,7 @@ The performance of the zero-shot transfer learning experiments on the BIOSCAN-5M
   </div>
 </div>
 <div align="left">
-<p><b>Zero-shot clustering AMI (\%) performance</b> across taxonomic ranks.
+<p><b>Figure 9: Zero-shot clustering AMI (\%) performance</b> across taxonomic ranks.
     For images (left), pretrained encoders only capture coarse-grained information, but with DNA barcodes (right), clustering yields high performance to species-level, even without model retraining.</div>
 
 ### Task-III: Multimodal retrieval learning 
@@ -323,7 +323,7 @@ DNA and text (keys). The cosine similarity is used to find the closest key embed
 
 <div align="center">
   <img src="BIOSCAN_images/repo_images/bioscan_clip.png" alt="Methodology for BIOSCAN-CLIP experiments." />
-  <p><b>Figure 11:</b> CLIBD model architecture.
+  <p><b>Figure 10:</b> CLIBD model architecture.
 </div>
 
 #### Results
@@ -340,7 +340,7 @@ The performance of the multimodal retrieval learning experiments on the BIOSCAN-
   </div>
 </div>
 <div align="left">
-  <p><b>Multimodal retrieval accuracy (\%)</b> on seen and unseen species across different methods of retrieval (image-to-image, image-to-DNA, and DNA-to-DNA).
+  <p><b>Figure 11: Multimodal retrieval accuracy (\%)</b> on seen and unseen species across different methods of retrieval (image-to-image, image-to-DNA, and DNA-to-DNA).
     <b>Left</b>: retrieval accuracy before alignment of encoders. <b>Right</b>: retrieval accuracy after aligning images, DNA, and taxonomic labels.</div>
 
 
