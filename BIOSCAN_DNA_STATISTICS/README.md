@@ -1,11 +1,7 @@
 # BIOSCAN-5M
 
-Here you will get some clue about BIOSCAN-5M statictical analysis of the DNA nucleotide barcode sequences:
-
-
-###### <h3> Dataset Download
-
-
+Here, you will find an overview of the statistical analysis performed on the BIOSCAN-5M DNA nucleotide barcode sequences. 
+For more details, please refer to the [BIOSCAN-5M paper](https://arxiv.org/abs/2406.12723).
 
 
 ### DNA Barcode Statistics
