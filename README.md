@@ -252,7 +252,7 @@ alt="b"
 
 
 
-### Task-I: DNA-based taxonomic classification task
+### Task-I: DNA-based taxonomic classification 
 Two stages of the proposed semi-supervised learning set-up based on [BarcodeBERT](https://arxiv.org/abs/2311.02401). 
 1. Pretraining: DNA sequences are tokenized using non-overlapping k-mers and 50% of the tokens are masked for the MLM task. 
 Tokens are encoded and fed into a transformer model. The output embeddings are used for token-level classification. 
@@ -282,7 +282,7 @@ _Bold values indicate the best result, and italicized values indicate the second
 | **Ours**       | Transformer    | DNA barcodes     | 7 B           | **99.28**                | *94.47*       | **47.03**               |
 
 
-### Task-II: Zero-shot transfer learning task
+### Task-II: Zero-shot transfer learning 
 We follow the experimental setup recommended by [zero-shot clustering](https://arxiv.org/abs/2406.02465),
 expanded to operate on multiple modalities.
 1. Take pretrained encoders.
@@ -313,7 +313,7 @@ The performance of the zero-shot transfer learning experiments on the BIOSCAN-5M
 <p><b>Zero-shot clustering AMI (\%) performance</b> across taxonomic ranks.
     For images (left), pretrained encoders only capture coarse-grained information, but with DNA barcodes (right), clustering yields high performance to species-level, even without model retraining.</div>
 
-### Task-III: Multimodal retrieval learning task
+### Task-III: Multimodal retrieval learning 
 Our experiments using the [BIOSCAN-CLIP](https://arxiv.org/abs/2405.17537) are conducted in two steps. 
 1. Training: Multiple modalities, including RGB images, textual taxonomy, and DNA sequences, are encoded separately, 
 and trained using a contrastive loss function. 
