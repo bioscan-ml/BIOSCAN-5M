@@ -238,10 +238,14 @@ and whose genus name is a scientific name
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
   <div>
-    <img src="BIOSCAN_images/repo_images/bioscan5m_split_seen.png" alt="Treemap diagram showing number of samples per partition" />
+    <img src="BIOSCAN_images/repo_images/bioscan5m_split_seen.png" 
+    alt="a" 
+         style="max-width: 200px; height: 200px;" />
   </div>
   <div>
-    <img src="BIOSCAN_images/repo_images/bioscan5m_split_unseen.png" alt="Another image related to partitions" />
+    <img src="BIOSCAN_images/repo_images/bioscan5m_split_unseen.png" 
+alt="b" 
+         style="max-width: 200px; height: 200px;" />
   </div>
 </div>
 <div align="left">
@@ -300,12 +304,12 @@ The performance of the zero-shot transfer learning experiments on the BIOSCAN-5M
 <div align="center" style="display: flex; justify-content: space-between; gap: 20px; flex-wrap: nowrap;">
   <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_image.png" 
-         alt="Treemap diagram showing number of samples per partition" 
+         alt="a" 
          style="max-width: 200px; height: 200px;" />
   </div>
   <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_dna.png" 
-         alt="Another image related to partitions" 
+         alt="b" 
          style="max-width: 200px; height: 200px;" />
   </div>
 </div>
@@ -332,10 +336,14 @@ The performance of the multimodal retrieval learning experiments on the BIOSCAN-
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
   <div>
-    <img src="BIOSCAN_images/repo_images/bioscan5m_clibd_noalign.png" alt="Treemap diagram showing number of samples per partition" />
+    <img src="BIOSCAN_images/repo_images/bioscan5m_clibd_noalign.png" 
+    alt="a" 
+    style="max-width: 200px; height: 200px;" />
   </div>
   <div>
-    <img src="BIOSCAN_images/repo_images/bioscan5m_clibd_idt.png" alt="Another image related to partitions" />
+    <img src="BIOSCAN_images/repo_images/bioscan5m_clibd_idt.png" 
+     alt="b" 
+     style="max-width: 200px; height: 200px;"/>
   </div>
 </div>
 <div align="left">
