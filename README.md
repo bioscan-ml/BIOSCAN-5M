@@ -275,13 +275,13 @@ _Bold values indicate the best result, and italicized values indicate the second
 <table>
   <thead>
     <tr>
-      <th style="font-size: 12px;">Model</th>
-      <th style="font-size: 12px;">Architecture</th>
-      <th style="font-size: 12px;">SSL-Pretraining</th>
-      <th style="font-size: 12px;">Tokens Seen</th>
-      <th style="font-size: 12px;">Fine-tuned Seen: Species</th>
-      <th style="font-size: 12px;">Linear Probe Seen: Species</th>
-      <th style="font-size: 12px;">1NN-Probe Unseen: Genus</th>
+      <th style="font-size: 9px;">Model</th>
+      <th style="font-size: 9px;">Architecture</th>
+      <th style="font-size: 9px;">SSL-Pretraining</th>
+      <th style="font-size: 9px;">Tokens Seen</th>
+      <th style="font-size: 9px;">Fine-tuned Seen: Species</th>
+      <th style="font-size: 9px;">Linear Probe Seen: Species</th>
+      <th style="font-size: 9px;">1NN-Probe Unseen: Genus</th>
     </tr>
   </thead>
   <tbody>
