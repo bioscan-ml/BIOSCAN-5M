@@ -272,18 +272,84 @@ For the open-world setting, we show genus-level accuracy (%) for unseen species,
 _Bold values indicate the best result, and italicized values indicate the second best._
 
 
-| Model        | Architecture | SSL-Pretraining | Tokens Seen | Fine-tuned Seen: Species | Linear Probe Seen: Species  | 1NN-Probe Unseen: Genus |
-|--------------|--------------|-----------------|-------------|--------------------------|-----------------------------|-------------------------|
-| CNN baseline | CNN          | --              | --          | 97.70                    | --                          | *29.88*                 |
-| NT           | Transformer  | Multi-Species   | 300 B       | 98.99                    | 52.41                       | 21.67                   |
-| DNABERT-2    | Transformer  | Multi-Species   | 512 B       | *99.23*                  | 67.81                       | 17.99                   |
-| DNABERT-S    | Transformer  | Multi-Species   | ~1,000 B    | 98.99                    | **95.50**                   | 17.70                   |
-| HyenaDNA     | SSM          | Human DNA       | 5 B         | 98.71                    | 54.82                       | 19.26                   |
-| BarcodeBERT  | Transformer  | DNA barcodes    | 5 B         | 98.52                    | 91.93                       | 23.15                   |
-| **Ours**     | Transformer  | DNA barcodes    | 7 B         | **99.28**                | *94.47*                     | **47.03**               |
-
-
-
+<table>
+  <thead>
+    <tr>
+      <th style="font-size: 12px;">Model</th>
+      <th style="font-size: 12px;">Architecture</th>
+      <th style="font-size: 12px;">SSL-Pretraining</th>
+      <th style="font-size: 12px;">Tokens Seen</th>
+      <th style="font-size: 12px;">Fine-tuned Seen: Species</th>
+      <th style="font-size: 12px;">Linear Probe Seen: Species</th>
+      <th style="font-size: 12px;">1NN-Probe Unseen: Genus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="font-size: 12px;">CNN baseline</td>
+      <td style="font-size: 12px;">CNN</td>
+      <td style="font-size: 12px;">--</td>
+      <td style="font-size: 12px;">--</td>
+      <td style="font-size: 12px;">97.70</td>
+      <td style="font-size: 12px;">--</td>
+      <td style="font-size: 12px;"><i>29.88</i></td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;">NT</td>
+      <td style="font-size: 12px;">Transformer</td>
+      <td style="font-size: 12px;">Multi-Species</td>
+      <td style="font-size: 12px;">300 B</td>
+      <td style="font-size: 12px;">98.99</td>
+      <td style="font-size: 12px;">52.41</td>
+      <td style="font-size: 12px;">21.67</td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;">DNABERT-2</td>
+      <td style="font-size: 12px;">Transformer</td>
+      <td style="font-size: 12px;">Multi-Species</td>
+      <td style="font-size: 12px;">512 B</td>
+      <td style="font-size: 12px;"><i>99.23</i></td>
+      <td style="font-size: 12px;">67.81</td>
+      <td style="font-size: 12px;">17.99</td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;">DNABERT-S</td>
+      <td style="font-size: 12px;">Transformer</td>
+      <td style="font-size: 12px;">Multi-Species</td>
+      <td style="font-size: 12px;">~1,000 B</td>
+      <td style="font-size: 12px;">98.99</td>
+      <td style="font-size: 12px;"><b>95.50</b></td>
+      <td style="font-size: 12px;">17.70</td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;">HyenaDNA</td>
+      <td style="font-size: 12px;">SSM</td>
+      <td style="font-size: 12px;">Human DNA</td>
+      <td style="font-size: 12px;">5 B</td>
+      <td style="font-size: 12px;">98.71</td>
+      <td style="font-size: 12px;">54.82</td>
+      <td style="font-size: 12px;">19.26</td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;">BarcodeBERT</td>
+      <td style="font-size: 12px;">Transformer</td>
+      <td style="font-size: 12px;">DNA barcodes</td>
+      <td style="font-size: 12px;">5 B</td>
+      <td style="font-size: 12px;">98.52</td>
+      <td style="font-size: 12px;">91.93</td>
+      <td style="font-size: 12px;">23.15</td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;"><b>Ours</b></td>
+      <td style="font-size: 12px;">Transformer</td>
+      <td style="font-size: 12px;">DNA barcodes</td>
+      <td style="font-size: 12px;">7 B</td>
+      <td style="font-size: 12px;"><b>99.28</b></td>
+      <td style="font-size: 12px;"><i>94.47</i></td>
+      <td style="font-size: 12px;"><b>47.03</b></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Task-II: Zero-shot transfer learning 
 We follow the experimental setup recommended by [zero-shot clustering](https://arxiv.org/abs/2406.02465),
