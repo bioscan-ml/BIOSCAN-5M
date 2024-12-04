@@ -286,13 +286,13 @@ _Bold values indicate the best result, and italicized values indicate the second
   </thead>
   <tbody>
     <tr>
-      <td style="font-size: 12px;">CNN baseline</td>
-      <td style="font-size: 12px;">CNN</td>
-      <td style="font-size: 12px;">--</td>
-      <td style="font-size: 12px;">--</td>
-      <td style="font-size: 12px;">97.70</td>
-      <td style="font-size: 12px;">--</td>
-      <td style="font-size: 12px;"><i>29.88</i></td>
+      <td style="font-size: 5px;">CNN baseline</td>
+      <td style="font-size: 5px;">CNN</td>
+      <td style="font-size: 5px;">--</td>
+      <td style="font-size: 5px;">--</td>
+      <td style="font-size: 5px;">97.70</td>
+      <td style="font-size: 5px;">--</td>
+      <td style="font-size: 5px;"><i>29.88</i></td>
     </tr>
     <tr>
       <td style="font-size: 12px;">NT</td>
