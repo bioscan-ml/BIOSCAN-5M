@@ -1,6 +1,6 @@
 # BIOSCAN-5M
 
-BIOSCAN-5M metadata file.
+BIOSCAN-5M Poster.
 
 ###### <h3> BIOSCAN-5M Poster
 Take a quick look at the BIOSCAN-5M project highlights!
