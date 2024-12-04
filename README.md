@@ -301,12 +301,12 @@ The performance of the zero-shot transfer learning experiments on the BIOSCAN-5M
   <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_image.png" 
          alt="Treemap diagram showing number of samples per partition" 
-         style="max-width: 100px; height: auto;" />
+         style="max-width: 100px; height: 100px;" />
   </div>
   <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_dna.png" 
          alt="Another image related to partitions" 
-         style="max-width: 100px; height: auto;" />
+         style="max-width: 100px; height: 100px;" />
   </div>
 </div>
 <div align="left">
