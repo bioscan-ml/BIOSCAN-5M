@@ -280,7 +280,7 @@ _Bold values indicate the best result, and italicized values indicate the second
       <th style="font-size: 5px;">SSL-Pretraining</th>
       <th style="font-size: 5px;">Tokens Seen</th>
       <th style="font-size: 5px;">Fine-tuned Seen: Species</th>
-      <th style="font-size: 5px;">Linear Probe Seen: Species</th>
+      <th style="font-size: 5px;">Linear-Probe Seen: Species</th>
       <th style="font-size: 5px;">1NN-Probe Unseen: Genus</th>
     </tr>
   </thead>
