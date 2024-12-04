@@ -241,8 +241,6 @@ and whose genus name is a scientific name
     <img src="BIOSCAN_images/repo_images/bioscan5m_split_seen.png" 
     alt="a" 
          style="max-width: 200px; height: 200px;" />
-  </div>
-  <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_split_unseen.png" 
 alt="b" 
          style="max-width: 200px; height: 200px;" />
