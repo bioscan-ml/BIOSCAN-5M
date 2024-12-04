@@ -39,21 +39,21 @@ The following table presents the DNA barcode statistics for various taxonomic ra
 
 <div align="center">
   <img src="https://github.com/zahrag/BIOSCAN-5M/blob/main/BIOSCAN_images/repo_images/class_distance_distribution.png" 
-       alt="Examples of the original images with the bounding box detected by our cropping tool." />
+       alt="class." />
   <p><b>Figure 1</b>Distribution of pairwise distances of subgroups of class. The x-axis shows the subgroup
 categories sorted alphabetically.</p>
 </div>
 
 <div align="center">
   <img src="https://github.com/zahrag/BIOSCAN-5M/blob/main/BIOSCAN_images/repo_images/order_distance_distribution.png" 
-       alt="Examples of the original images with the bounding box detected by our cropping tool." />
+       alt="order." />
   <p><b>Figure 2</b>Distribution of pairwise distances of subgroups of order. The x-axis shows the subgroup
 categories sorted alphabetically.</p>
 </div>
 
 <div align="center">
   <img src="https://github.com/zahrag/BIOSCAN-5M/blob/main/BIOSCAN_images/repo_images/species_distance_distribution.png" 
-       alt="Examples of the original images with the bounding box detected by our cropping tool." />
+       alt="species." />
   <p><b>Figure 3</b>Distribution of pairwise distances of subgroups of species. Among the species, there are
 8,372 distinct subgroups with sufficient identical barcodes for calculating pairwise distances, which
 makes visualization challenging. To address this, the groups are sorted in descending order based
