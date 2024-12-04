@@ -33,14 +33,14 @@ If you make use of the BIOSCAN-5M dataset and/or this code repository, please ci
 
 ## Getting Started with BIOSCAN-5M
 
-#### I. Environment Setup
+### I. Environment Setup
 To set up the BIOSCAN-5M project, create the required environment using the provided `bioscan5m.yaml` file. Run the following command:
 
 ```bash
 conda env create -f bioscan5m.yaml
 ``` 
 
-#### II. Dataset Quick Start
+### II. Dataset Quick Start
 
 Quickly access the BIOSCAN-5M dataset by installing the dataset package and initializing the data loader. Use the following commands:
 
@@ -55,7 +55,7 @@ ds = BIOSCAN5M("~/Datasets/bioscan-5m", download=True)
 ```
 For more detailed information, please see the [BIOSCAN-5M Package](https://github.com/bioscan-ml/dataset)
 
-#### III. Task-Specific Settings
+### III. Task-Specific Settings
 Please note that to work with all modules connected to this repository, 
 you may need to install additional dependencies specific to each module (if any).
 Be sure to follow the instructions provided within each module's folder for further setup details.
