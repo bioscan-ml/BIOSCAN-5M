@@ -48,7 +48,7 @@ The following table presents the DNA barcode statistics for various taxonomic ra
 
 <div align="center">
   <figure>
-    <img src="https://raw.githubusercontent.com/zahrag/BIOSCAN-5M/main/BIOSCAN_images/repo_images/order_distance_distribution.png" 
+    <img src="https://raw.githubusercontent.com/zahrag/BIOSCAN-5M/main/BIOSCAN_images/repo_images/order_distance_distributions.png" 
          alt="order." />
     <figcaption><b>Figure 2: </b>Distribution of pairwise distances of subgroups of order. The x-axis shows the subgroup
     categories sorted alphabetically.</figcaption>
