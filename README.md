@@ -334,7 +334,7 @@ The performance of the multimodal retrieval learning experiments on the BIOSCAN-
   <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_clibd_noalign.png" 
     alt="a" 
-    style="max-width: 300px; height: 300px;" />
+    style="max-width: 250px; height: 250px;" />
     <img src="BIOSCAN_images/repo_images/bioscan5m_clibd_idt.png" 
      alt="b" 
      style="max-width: 300px; height: 300px;"/>
