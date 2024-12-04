@@ -240,10 +240,10 @@ and whose genus name is a scientific name
   <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_split_seen.png" 
     alt="a" 
-         style="max-width: 200px; height: 200px;" />
+         style="max-width: 300px; height: 300px;" />
     <img src="BIOSCAN_images/repo_images/bioscan5m_split_unseen.png" 
 alt="b" 
-         style="max-width: 200px; height: 200px;" />
+         style="max-width: 300px; height: 300px;" />
   </div>
 </div>
 <div align="left">
