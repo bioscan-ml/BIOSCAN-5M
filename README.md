@@ -31,6 +31,36 @@ If you make use of the BIOSCAN-5M dataset and/or this code repository, please ci
 }
 ```
 
+## Getting Started with BIOSCAN-5M
+
+#### 1. Environment Setup
+To set up the BIOSCAN-5M project, create the required environment using the provided `bioscan5m.yaml` file. Run the following command:
+
+```bash
+conda env create -f bioscan5m.yaml
+``` 
+
+#### 2. Dataset Quick Start
+
+Quickly access the BIOSCAN-5M dataset by installing the dataset package and initializing the data loader. Use the following commands:
+
+```bash
+pip install bioscan-dataset
+``` 
+
+```bash
+from bioscan_dataset import BIOSCAN5M
+
+ds = BIOSCAN5M("~/Datasets/bioscan-5m", download=True)
+```
+For more detailed information, please see the [BIOSCAN-5M Package](https://github.com/bioscan-ml/dataset)
+
+#### 3. Task-Specific Settings
+Please note that to work with all modules connected to this repository, 
+you may need to install additional dependencies specific to each module (if any).
+Be sure to follow the instructions provided within each module's folder for further setup details.
+
+
 Dataset
 -------
 We present BIOSCAN-5M dataset to the machine learning community.
@@ -69,34 +99,6 @@ and licensing restrictions shown in the following:
  - Copyright Contact: collectionsBIO@gmail.com
  - Copyright Year: 2021
 
-### Getting Started with BIOSCAN-5M
-
-#### 1. Environment Setup
-To set up the BIOSCAN-5M project, create the required environment using the provided `bioscan5m.yaml` file. Run the following command:
-
-```bash
-conda env create -f bioscan5m.yaml
-``` 
-
-#### 2. Dataset Quick Start
-
-Quickly access the BIOSCAN-5M dataset by installing the dataset package and initializing the data loader. Use the following commands:
-
-```bash
-pip install bioscan-dataset
-``` 
-
-```bash
-from bioscan_dataset import BIOSCAN5M
-
-ds = BIOSCAN5M("~/Datasets/bioscan-5m", download=True)
-```
-For more detailed information, please see the [BIOSCAN-5M Package](https://github.com/bioscan-ml/dataset)
-
-#### 3. Task-Specific Settings
-Please note that to work with all modules connected to this repository, 
-you may need to install additional dependencies specific to each module (if any).
-Be sure to follow the instructions provided within each module's folder for further setup details.
 
 ### Metadata 
 The dataset metadata file **BIOSCAN_5M_Insect_Dataset_metadata** contains biological information, geographic information as well as 
