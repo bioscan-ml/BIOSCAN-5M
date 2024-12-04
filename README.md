@@ -303,16 +303,14 @@ The performance of the zero-shot transfer learning experiments on the BIOSCAN-5M
   <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_image.png" 
          alt="a" 
-         style="max-width: 200px; height: 200px;" />
+         style="max-width: 300px; height: 300px;" />
     <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_dna.png" 
          alt="b" 
-         style="max-width: 200px; height: 200px;" />
+         style="max-width: 300px; height: 300px;" />
   </div>
 </div>
 <div align="left">
-
-
-  <p><b>Zero-shot clustering AMI (\%) performance</b> across taxonomic ranks.
+<p><b>Zero-shot clustering AMI (\%) performance</b> across taxonomic ranks.
     For images (left), pretrained encoders only capture coarse-grained information, but with DNA barcodes (right), clustering yields high performance to species-level, even without model retraining.</div>
 
 ### Task-III: Multimodal retrieval learning task
@@ -342,6 +340,6 @@ The performance of the multimodal retrieval learning experiments on the BIOSCAN-
 </div>
 <div align="left">
   <p><b>Multimodal retrieval accuracy (\%)</b> on seen and unseen species across different methods of retrieval (image-to-image, image-to-DNA, and DNA-to-DNA).
-    Left: retrieval accuracy before alignment of encoders. Right: retrieval accuracy after aligning images, DNA, and taxonomic labels.</div>
+    **Left**: retrieval accuracy before alignment of encoders. **Right**: retrieval accuracy after aligning images, DNA, and taxonomic labels.</div>
 
 
