@@ -304,8 +304,6 @@ The performance of the zero-shot transfer learning experiments on the BIOSCAN-5M
     <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_image.png" 
          alt="a" 
          style="max-width: 200px; height: 200px;" />
-  </div>
-  <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_dna.png" 
          alt="b" 
          style="max-width: 200px; height: 200px;" />
@@ -337,8 +335,6 @@ The performance of the multimodal retrieval learning experiments on the BIOSCAN-
     <img src="BIOSCAN_images/repo_images/bioscan5m_clibd_noalign.png" 
     alt="a" 
     style="max-width: 200px; height: 200px;" />
-  </div>
-  <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_clibd_idt.png" 
      alt="b" 
      style="max-width: 200px; height: 200px;"/>
