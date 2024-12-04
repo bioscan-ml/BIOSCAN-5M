@@ -10,7 +10,7 @@ Take a quick look at the BIOSCAN-5M project highlights!
        alt="BIOSCAN-5M poster." 
        width="100%" 
        height="auto" />
-  <p><b>Figure 2:</b> BIOSCAN-5M poster presented at the **Advances in Neural Information Processing Systems (NeurIPS2024)**</p>
+  <p><b>Figure 2:</b> BIOSCAN-5M poster presented at the <b>Advances in Neural Information Processing Systems (NeurIPS2024)</b></p>
 </div>
 
 
