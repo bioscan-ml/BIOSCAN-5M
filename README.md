@@ -297,7 +297,7 @@ expanded to operate on multiple modalities.
 #### Results
 The performance of the zero-shot transfer learning experiments on the BIOSCAN-5M dataset is summarized as follows:
 
-<div align="center" style="display: flex; justify-content: center; gap: 20px;">
+<div align="center" style="display: flex; justify-content: space-between; gap: 20px; flex-wrap: nowrap;">
   <div>
     <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_image.png" 
          alt="Treemap diagram showing number of samples per partition" 
@@ -310,6 +310,7 @@ The performance of the zero-shot transfer learning experiments on the BIOSCAN-5M
   </div>
 </div>
 <div align="left">
+
 
   <p><b>Zero-shot clustering AMI (\%) performance</b> across taxonomic ranks.
     For images (left), pretrained encoders only capture coarse-grained information, but with DNA barcodes (right), clustering yields high performance to species-level, even without model retraining.</div>
