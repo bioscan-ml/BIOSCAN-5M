@@ -340,6 +340,6 @@ The performance of the multimodal retrieval learning experiments on the BIOSCAN-
 </div>
 <div align="left">
   <p><b>Multimodal retrieval accuracy (\%)</b> on seen and unseen species across different methods of retrieval (image-to-image, image-to-DNA, and DNA-to-DNA).
-    **Left**: retrieval accuracy before alignment of encoders. **Right**: retrieval accuracy after aligning images, DNA, and taxonomic labels.</div>
+    <b>Left</b>: retrieval accuracy before alignment of encoders. <b>Right</b>: retrieval accuracy after aligning images, DNA, and taxonomic labels.</div>
 
 
