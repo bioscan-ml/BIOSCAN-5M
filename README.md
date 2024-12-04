@@ -70,10 +70,30 @@ and licensing restrictions shown in the following:
  - Copyright Year: 2021
 
 ### Getting Started with BIOSCAN-5M
-To set up the BIOSCAN-5M project, use the provided `bioscan5m.yaml` file to install all required packages by running:
+
+#### 1. Environment Setup
+To set up the BIOSCAN-5M project, create the required environment using the provided `bioscan5m.yaml` file. Run the following command:
+
 ```bash
 conda env create -f bioscan5m.yaml
 ``` 
+
+#### 2. Dataset Quick Start
+
+Quickly access the BIOSCAN-5M dataset by installing the dataset package and initializing the data loader. Use the following commands:
+
+```bash
+pip install bioscan-dataset
+``` 
+
+```bash
+from bioscan_dataset import BIOSCAN5M
+
+ds = BIOSCAN5M("~/Datasets/bioscan-5m", download=True)
+```
+For more detailed information, please see the [BIOSCAN-5M Package](https://github.com/bioscan-ml/dataset)
+
+#### 3. Task-Specific Settings
 Please note that to work with all modules connected to this repository, 
 you may need to install additional dependencies specific to each module (if any).
 Be sure to follow the instructions provided within each module's folder for further setup details.
@@ -216,13 +236,21 @@ and whose genus name is a scientific name
 * Samples without species labels are placed in the <code>pretrain</code> partition, which comprises 90% of the data.
   * This data can be used for self-supervised or semi-supervised training. 
 
-<div align="center">
-  <img src="BIOSCAN_images/repo_images/treemap_partitions.svg" alt="Treemap diagram showing number of samples per partition" />
-  <p><b>Figure 8:</b> Treemap diagram showing number of samples per partition. For the pretrain partition (blues), we provide a further breakdown indicating the most fine-grained taxonomic rank that is labelled for the samples. For the remainder of the partitions (all of which are labelled to species level) we show the number of samples in the partition. Samples for seen species are shown in shades of green, and unseen in shades of red.</p>
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
+  <div>
+    <img src="BIOSCAN_images/repo_images/bioscan5m_split_seen.png" alt="Treemap diagram showing number of samples per partition" />
+  </div>
+  <div>
+    <img src="BIOSCAN_images/repo_images/bioscan5m_split_unseen.png" alt="Another image related to partitions" />
+  </div>
+</div>
+<div align="left">
+  <p><b>Distribution of class- and (Insecta) order-level taxa</b> for seen and unseen data partitions. The distributions reflect that of known and newly-discovered species, respectively.</p>
 </div>
 
 
-### DNA-based taxonomic classification task
+
+### Task-I: DNA-based taxonomic classification task
 Two stages of the proposed semi-supervised learning set-up based on [BarcodeBERT](https://arxiv.org/abs/2311.02401). 
 1. Pretraining: DNA sequences are tokenized using non-overlapping k-mers and 50% of the tokens are masked for the MLM task. 
 Tokens are encoded and fed into a transformer model. The output embeddings are used for token-level classification. 
@@ -233,8 +261,26 @@ Tokens are encoded and fed into a transformer model. The output embeddings are u
   <p><b>Figure 9:</b> BarcodeBERT model architecture.
 </div>
 
+#### Results
+The performance of the taxonomic classification using DNA barcode sequences of the BIOSCAN-5M dataset is summarized as follows:
 
-### Zero-shot transfer learning task
+**Performance of DNA-based sequence models** in closed- and open-world settings.  
+For the closed-world setting, we show the species-level accuracy (%) for predicting seen species.  
+For the open-world setting, we show genus-level accuracy (%) for unseen species, while using seen species to fit the model.  
+_Bold values indicate the best result, and italicized values indicate the second best._
+
+| Model          | Architecture   | SSL-Pretraining  | Tokens Seen   | Fine-tuned Seen: Species | Linear Probe Seen: Species | 1NN-Probe Unseen: Genus |
+|----------------|----------------|------------------|---------------|--------------------------|---------------|-------------------------|
+| CNN baseline   | CNN            | --               | --            | 97.70                    | --            | *29.88*                 |
+| NT             | Transformer    | Multi-Species    | 300 B         | 98.99                    | 52.41         | 21.67                   |
+| DNABERT-2      | Transformer    | Multi-Species    | 512 B         | *99.23*                  | 67.81         | 17.99                   |
+| DNABERT-S      | Transformer    | Multi-Species    | ~1,000 B      | 98.99                    | **95.50**     | 17.70                   |
+| HyenaDNA       | SSM            | Human DNA        | 5 B           | 98.71                    | 54.82         | 19.26                   |
+| BarcodeBERT    | Transformer    | DNA barcodes     | 5 B           | 98.52                    | 91.93         | 23.15                   |
+| **Ours**       | Transformer    | DNA barcodes     | 7 B           | **99.28**                | *94.47*       | **47.03**               |
+
+
+### Task-II: Zero-shot transfer learning task
 We follow the experimental setup recommended by [zero-shot clustering](https://arxiv.org/abs/2406.02465),
 expanded to operate on multiple modalities.
 1. Take pretrained encoders.
@@ -248,8 +294,22 @@ expanded to operate on multiple modalities.
   <p><b>Figure 10:</b> BIOSCAN-ZSC model architecture.
 </div>
 
+#### Results
+The performance of the zero-shot transfer learning experiments on the BIOSCAN-5M dataset is summarized as follows:
 
-### Multimodal retrieval learning task
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
+  <div>
+    <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_image.png" alt="Treemap diagram showing number of samples per partition" />
+  </div>
+  <div>
+    <img src="BIOSCAN_images/repo_images/bioscan5m_zsc_dna.png" alt="Another image related to partitions" />
+  </div>
+</div>
+<div align="left">
+  <p><b>Zero-shot clustering AMI (\%) performance</b> across taxonomic ranks.
+    For images (left), pretrained encoders only capture coarse-grained information, but with DNA barcodes (right), clustering yields high performance to species-level, even without model retraining.</div>
+
+### Task-III: Multimodal retrieval learning task
 Our experiments using the [BIOSCAN-CLIP](https://arxiv.org/abs/2405.17537) are conducted in two steps. 
 1. Training: Multiple modalities, including RGB images, textual taxonomy, and DNA sequences, are encoded separately, 
 and trained using a contrastive loss function. 
@@ -258,6 +318,22 @@ DNA and text (keys). The cosine similarity is used to find the closest key embed
 
 <div align="center">
   <img src="BIOSCAN_images/repo_images/bioscan_clip.png" alt="Methodology for BIOSCAN-CLIP experiments." />
-  <p><b>Figure 11:</b> BIOSCAN-CLIP model architecture.
+  <p><b>Figure 11:</b> CLIBD model architecture.
 </div>
+
+#### Results
+The performance of the multimodal retrieval learning experiments on the BIOSCAN-5M dataset is summarized as follows:
+
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
+  <div>
+    <img src="BIOSCAN_images/repo_images/bioscan5m_clibd_noalign.png" alt="Treemap diagram showing number of samples per partition" />
+  </div>
+  <div>
+    <img src="BIOSCAN_images/repo_images/bioscan5m_clibd_idt.png" alt="Another image related to partitions" />
+  </div>
+</div>
+<div align="left">
+  <p><b>Multimodal retrieval accuracy (\%)</b> on seen and unseen species across different methods of retrieval (image-to-image, image-to-DNA, and DNA-to-DNA).
+    Left: retrieval accuracy before alignment of encoders. Right: retrieval accuracy after aligning images, DNA, and taxonomic labels.</div>
+
 
