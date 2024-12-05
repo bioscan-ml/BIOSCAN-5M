@@ -87,6 +87,10 @@ All dataset image packages and metadata files are accessible for download throug
 Additionally, the dataset is available on [Zenodo](https://zenodo.org/records/11973457),
 [Kaggle](https://www.kaggle.com/datasets/zahragharaee/bioscan-5m), and [HuggingFace](https://huggingface.co/datasets/Gharaee/BIOSCAN-5M).
  
+### Dataset Browser
+The [BIOSCAN-5M dataset Browser](https://bioscan-browser.netlify.app/) is an interactive tool designed to explore the BIOSCAN-5M dataset efficiently. 
+It allows you to navigate through taxonomic ranks, visualize species distributions, and analyze DNA barcode statistics. 
+The browser supports advanced filtering, sorting, and visualization capabilities to facilitate in-depth data exploration for researchers and developers.
 
 ### Copyright and License 
 The images and metadata included in the BIOSCAN-5M dataset available through this repository are subject to copyright 
