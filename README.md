@@ -74,7 +74,7 @@ Each record of the BIOSCAN-5M dataset contains six primary attributes:
 * Barcode Index Number (BIN)
   * Metadata field: <code>dna_bin</code>
 * Biological taxonomic classification
-  * Metadata fields: <code>phylum</code>, <code>class</code>, <code>order</code>, <code>family</code>, <code>subfamily</code>, <code>genus</code>, <code>species</code>
+  * Metadata fields: <code>phylum</code>, <code>class</code>, <code>order</code>, <code>family</code>, <code>subfamily</code>, <code>genus</code>, <code>species</code>, <code>taxon</code>
 * Geographical information 
   * Metadata fields: <code>country</code>, <code>province_state</code>, <code>latitude</code>, <code>longitude</code>
 * Specimen size
