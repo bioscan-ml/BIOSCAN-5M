@@ -88,7 +88,7 @@ Additionally, the dataset is available on [Zenodo](https://zenodo.org/records/11
 [Kaggle](https://www.kaggle.com/datasets/zahragharaee/bioscan-5m), and [HuggingFace](https://huggingface.co/datasets/Gharaee/BIOSCAN-5M).
  
 ### Dataset Browser
-The [BIOSCAN-5M dataset Browser](https://bioscan-browser.netlify.app/) is an interactive tool designed to explore the BIOSCAN-5M dataset efficiently. 
+The [BIOSCAN-5M Dataset Browser](https://bioscan-browser.netlify.app/) is an interactive tool designed to explore the BIOSCAN-5M dataset efficiently. 
 It allows you to navigate through taxonomic ranks, visualize species, and analyze DNA barcode statistics. 
 The browser supports advanced filtering, sorting, and visualization capabilities to facilitate in-depth data exploration for researchers and developers.
 
