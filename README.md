@@ -338,7 +338,7 @@ The performance of the multimodal retrieval learning experiments on the BIOSCAN-
     <b>Left</b>: retrieval accuracy before alignment of encoders. <b>Right</b>: retrieval accuracy after aligning images, DNA, and taxonomic labels.</div>
 
 
-### Copyright and License 
+## Copyright and License 
 The images and metadata included in the BIOSCAN-5M dataset available through this repository are subject to copyright 
 and licensing restrictions shown in the following:
 
