@@ -89,7 +89,7 @@ Additionally, the dataset is available on [Zenodo](https://zenodo.org/records/11
  
 ### Dataset Browser
 The [BIOSCAN-5M dataset Browser](https://bioscan-browser.netlify.app/) is an interactive tool designed to explore the BIOSCAN-5M dataset efficiently. 
-It allows you to navigate through taxonomic ranks, visualize species distributions, and analyze DNA barcode statistics. 
+It allows you to navigate through taxonomic ranks, visualize species, and analyze DNA barcode statistics. 
 The browser supports advanced filtering, sorting, and visualization capabilities to facilitate in-depth data exploration for researchers and developers.
 
 ### Copyright and License 
