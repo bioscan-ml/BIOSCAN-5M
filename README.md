@@ -92,18 +92,6 @@ The [BIOSCAN-5M Dataset Browser](https://bioscan-browser.netlify.app/) is an int
 It allows you to navigate through taxonomic ranks, visualize specimens, and analyze DNA barcode statistics. 
 The browser supports advanced filtering, sorting, and visualization capabilities to facilitate in-depth data exploration for researchers and developers.
 
-### Copyright and License 
-The images and metadata included in the BIOSCAN-5M dataset available through this repository are subject to copyright 
-and licensing restrictions shown in the following:
-
- - Copyright Holder: CBG Photography Group
- - Copyright Institution: Centre for Biodiversity Genomics (email:CBGImaging@gmail.com)
- - Photographer: CBG Robotic Imager
- - Copyright License: Creative Commons Attribution 3.0 Unported ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/))
- - Copyright Contact: collectionsBIO@gmail.com
- - Copyright Year: 2021
-
-
 ### Metadata 
 The dataset metadata file **BIOSCAN_5M_Insect_Dataset_metadata** contains biological information, geographic information as well as 
 size information of the organisms. We provide this metadata in both CSV and JSONLD file types.
@@ -350,3 +338,13 @@ The performance of the multimodal retrieval learning experiments on the BIOSCAN-
     <b>Left</b>: retrieval accuracy before alignment of encoders. <b>Right</b>: retrieval accuracy after aligning images, DNA, and taxonomic labels.</div>
 
 
+### Copyright and License 
+The images and metadata included in the BIOSCAN-5M dataset available through this repository are subject to copyright 
+and licensing restrictions shown in the following:
+
+ - Copyright Holder: CBG Photography Group
+ - Copyright Institution: Centre for Biodiversity Genomics (email:CBGImaging@gmail.com)
+ - Photographer: CBG Robotic Imager
+ - Copyright License: Creative Commons Attribution 3.0 Unported ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/))
+ - Copyright Contact: collectionsBIO@gmail.com
+ - Copyright Year: 2021
