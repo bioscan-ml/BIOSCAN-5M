@@ -28,7 +28,7 @@ The following table presents the DNA barcode statistics for various taxonomic ra
 | `species`   | 22,622         | 202,260              | 9             | 2               | 37                 | 1.46             | 17            | 18                 |
 | `BIN`       | 324,411        | 2,474,881            | 8             | 2               | 40                 | 1.29             | N/A           | N/A                |
 
-**U.B.:** Unique DNA Barcode Sequence  
+**U.B.** Unique DNA Barcode Sequence  
 **P.D.** Pairwise Distance 
 
 ## Pairwise Damerau-Levenshtein Distance Analysis of identical DNA barcodes
