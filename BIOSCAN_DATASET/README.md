@@ -6,7 +6,6 @@ Here are the functions handling:
 - Data statistics 
 - Data distributions 
 - Data split
-- Data loader
 
 ###### <h3> Dataset Download
 The BIOSCAN-5M dataset files are available on [GoogleDrive](https://drive.google.com/drive/u/1/folders/1Jc57eKkeiYrnUBc9WlIp-ZS_L1bVlT-0) folder.
