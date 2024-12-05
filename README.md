@@ -53,7 +53,7 @@ from bioscan_dataset import BIOSCAN5M
 
 ds = BIOSCAN5M("~/Datasets/bioscan-5m", download=True)
 ```
-For more detailed information, please see the [BIOSCAN-5M Dataset Package](https://github.com/bioscan-ml/dataset)
+For more detailed information, please visit [BIOSCAN-5M Dataset Package](https://github.com/bioscan-ml/dataset)
 
 ### III. Task-Specific Settings
 Please note that to work with all modules connected to this repository, 
