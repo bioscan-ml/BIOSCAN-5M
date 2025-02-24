@@ -311,7 +311,7 @@ The performance of the zero-shot transfer learning experiments on the BIOSCAN-5M
     For images (left), pretrained encoders only capture coarse-grained information, but with DNA barcodes (right), clustering yields high performance to species-level, even without model retraining.</div>
 
 ### Task-III: Multimodal retrieval learning 
-Our experiments using the [CLIBD](https://github.com/bioscan-ml/clibd/tree/adding_update_log_to_readme) are conducted in two steps.
+Our experiments using the [CLIBD](https://github.com/bioscan-ml/clibd) are conducted in two steps.
 
 
 1. Training: Multiple modalities, including RGB images, textual taxonomy, and DNA sequences, are encoded separately, 
