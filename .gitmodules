@@ -6,7 +6,7 @@
 	path = BIOSCAN_ZSC
 	url = https://github.com/scottclowe/zs-ssl-clustering
 	branch = BIOSCAN-5M
-[submodule "BIOSCAN-CLIP"]
-	path = BIOSCAN-CLIP
+[submodule "CLIBD"]
+	path = CLIBD
 	url = git@github.com:bioscan-ml/clibd.git
 	branch = main
