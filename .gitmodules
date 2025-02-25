@@ -8,4 +8,5 @@
 	branch = BIOSCAN-5M
 [submodule "BIOSCAN-CLIP"]
 	path = BIOSCAN-CLIP
-	url = git@github.com:3dlg-hcvc/bioscan-clip.git
+	url = git@github.com:bioscan-ml/clibd.git
+	branch = main
