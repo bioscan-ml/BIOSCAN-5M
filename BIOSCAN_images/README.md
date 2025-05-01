@@ -38,7 +38,6 @@ The BIOSCAN-5M image data is organized within the `BIOSCAN_5M_original_256.zip` 
 
 - **`[processid]`**: A unique identifier assigned by the International Barcode of Life Consortium (BOLD).
 
----
 
 ### Zip File Structure
 
