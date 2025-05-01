@@ -43,7 +43,7 @@ The BIOSCAN-5M image data is organized within the `BIOSCAN_5M_original_256.zip` 
 
 The **BIOSCAN-5M** image data is organized in separate zip files for each data split, making it easier to manage and facilitate downloading specific splits for your experiments. The available zip files are as follows:
 
-- **`BIOSCAN_5M_original_256.zip`** and **`BIOSCAN_5M_cropped_256.zip`**: These packages are divided into separate zip files for different data splits:
+- **`BIOSCAN_5M_original_256`** and **`BIOSCAN_5M_cropped_256`**: These packages are also divided into separate zip files for different data splits:
   - **Data splits**: 
     - `pretrain`, `train`, and `eval` splits.
   - **Evaluation splits**: 
