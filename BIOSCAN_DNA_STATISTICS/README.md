@@ -17,6 +17,9 @@ The following table presents the DNA barcode statistics for various taxonomic ra
 - **Average Shannon Diversity Index (SDI)** for the DNA barcodes (measured in bits).
 - **Mean** and **Standard Deviation** of pairwise DNA barcode sequence distances, aggregated across subgroups for each taxonomic rank.
 
+> **U.B.** — Unique DNA Barcode Sequence  
+> **P.D.** — Pairwise Damerau-Levenshtein Distance
+> 
 | **Level**   | **Categories** | **Total Count** U.B. | **Mean** U.B. | **Median** U.B. | **Std. Dev.** U.B. | **Avg SDI** U.B. | **Mean** P.D. | **Std. Dev.** P.D. |
 |-------------|----------------|----------------------|---------------|-----------------|--------------------|------------------|---------------|--------------------|
 | `phylum`    | 1              | 2,486,492            |               |                 |                    | 19.78            | 158           | 42                 |
@@ -28,8 +31,7 @@ The following table presents the DNA barcode statistics for various taxonomic ra
 | `species`   | 22,622         | 202,260              | 9             | 2               | 37                 | 1.46             | 17            | 18                 |
 | `BIN`       | 324,411        | 2,474,881            | 8             | 2               | 40                 | 1.29             | N/A           | N/A                |
 
-**U.B.** Unique DNA Barcode Sequence  
-**P.D.** Pairwise Distance 
+
 
 ## Pairwise Damerau-Levenshtein Distance Analysis of identical DNA barcodes
 
