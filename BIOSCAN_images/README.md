@@ -41,9 +41,24 @@ The BIOSCAN-5M image data is organized within the `BIOSCAN_5M_original_256.zip` 
 
 ### Zip File Structure
 
-- **`BIOSCAN_5M_original_256.zip`** and **`BIOSCAN_5M_cropped_256.zip`** packages are also available as separate zip files for each data split. This facilitates experiments and enables separate downloading of specific splits as needed for different experiments:
-  - `pretrain`, `train`, and `eval` splits.
-  - The evaluation splits: `val`, `test`, `val_unseen`, `test_unseen`, `key_unseen`, and `other_heldout`, are all part of the evaluation partition of both the `original_256` and `cropped_256` image packages.
+The **BIOSCAN-5M** image data is organized in separate zip files for each data split, making it easier to manage and facilitate downloading specific splits for your experiments. The available zip files are as follows:
 
+- **`BIOSCAN_5M_original_256.zip`** and **`BIOSCAN_5M_cropped_256.zip`**: These packages are divided into separate zip files for different data splits:
+  - **Data splits**: 
+    - `pretrain`, `train`, and `eval` splits.
+  - **Evaluation splits**: 
+    - `val`, `test`, `val_unseen`, `test_unseen`, `key_unseen`, and `other_heldout` splits.
+    - These evaluation splits are included in the `original_256` and `cropped_256` image packages.
+
+#### Data Distribution for Large Packages
+
+To streamline downloading and ensure more manageable file sizes, larger data files (such as `BIOSCAN_5M_original_full` and `BIOSCAN_5M_cropped`) have been split into multiple zip files, each under 40 GB. This enables easier downloading and handling of the data:
+
+- The **`BIOSCAN_5M_original_full`** package (approximately **200 GB**) is split into **5 zip files**.
+- The **`BIOSCAN_5M_cropped`** package (approximately **80 GB**) is split into **2 zip files**.
+
+This approach ensures that each zip file is smaller than 40 GB, making it more efficient and user-friendly to download and work with the data.
+
+> ℹ️ **Note**: The evaluation splits (`val`, `test`, `val_unseen`, `test_unseen`, `key_unseen`, `other_heldout`) are part of the evaluation partition for both the `original_256` and `cropped_256` image packages.
 
 
