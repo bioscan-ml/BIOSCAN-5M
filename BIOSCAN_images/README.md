@@ -52,7 +52,7 @@ The **BIOSCAN-5M** image data is organized in separate zip files for each data s
 
 #### Data Distribution for Large Packages
 
-To streamline downloading and ensure more manageable file sizes, larger data files (such as `BIOSCAN_5M_original_full` and `BIOSCAN_5M_cropped`) have been split into multiple zip files, each under 40 GB. This enables easier downloading and handling of the data:
+To streamline downloading and ensure more manageable file sizes, larger data files (such as `BIOSCAN_5M_original_full` and `BIOSCAN_5M_cropped`) have been split into multiple zip files, each under 40 GB:
 
 - The **`BIOSCAN_5M_original_full`** package (approximately **200 GB**) is split into **5 zip files**.
 - The **`BIOSCAN_5M_cropped`** package (approximately **80 GB**) is split into **2 zip files**.
