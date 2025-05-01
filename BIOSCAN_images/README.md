@@ -59,6 +59,5 @@ To streamline downloading and ensure more manageable file sizes, larger data fil
 
 This approach ensures that each zip file is smaller than 40 GB, making it more efficient and user-friendly to download and work with the data.
 
-> ℹ️ **Note**: The evaluation splits (`val`, `test`, `val_unseen`, `test_unseen`, `key_unseen`, `other_heldout`) are part of the evaluation partition for both the `original_256` and `cropped_256` image packages.
 
 
