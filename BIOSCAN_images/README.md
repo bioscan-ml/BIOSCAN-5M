@@ -35,4 +35,5 @@ bioscan5m/images/[imgtype]/[split]/[chunk]/[{processid}.jpg]
 - `[processid]`: A unique number assigned by BOLD (International Barcode of Life Consortium).
 
 
-Note that the `val`, `test`, `val_unseen`, `test_unseen`, `key_unseen`, and `other_heldout` splits are all part of the evaluation partition of the `original_256` and `cropped_256` image packages.
+> **ℹ️ Note** 
+> The `val`, `test`, `val_unseen`, `test_unseen`, `key_unseen`, and `other_heldout` splits are all part of the evaluation partition of the `original_256` and `cropped_256` image packages.
