@@ -57,7 +57,5 @@ To streamline downloading and ensure more manageable file sizes, larger data fil
 - The **`BIOSCAN_5M_original_full`** package (approximately **200 GB**) is split into **5 zip files**.
 - The **`BIOSCAN_5M_cropped`** package (approximately **80 GB**) is split into **2 zip files**.
 
-This approach ensures that each zip file is smaller than 40 GB, making it more efficient and user-friendly to download and work with the data.
-
 
 
