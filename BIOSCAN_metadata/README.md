@@ -11,10 +11,10 @@ Accessing multiple types of the metadata file; **BIOSCAN_5M_Insect_Dataset_metad
 bioscan5m/metadata/[type]/BIOSCAN_5M_Insect_Dataset_metadata.[type_extension]
 ```
 
-- `[type]`: File type of the metadata file:
+- **`[type]`**: File type of the metadata file:
   - `CSV`
   - `JSON-LD`
-- `[type_extension]`:
+- **`[type_extension]`**:
   - `csv`
   - `jsonld`
 
