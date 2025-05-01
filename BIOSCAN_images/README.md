@@ -48,7 +48,7 @@ The **BIOSCAN-5M** image data is organized in separate zip files for each data s
     - `pretrain`, `train`, and `eval` splits.
   - **Evaluation splits**: 
     - `val`, `test`, `val_unseen`, `test_unseen`, `key_unseen`, and `other_heldout` splits.
-    - These evaluation splits are included in the `original_256` and `cropped_256` image packages.
+    - These evaluation splits are all part of the evaluation partition (`eval`) of both the `original_256` and `cropped_256` image packages.
 
 #### Data Distribution for Large Packages
 
