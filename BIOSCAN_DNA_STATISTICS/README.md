@@ -1,13 +1,17 @@
 # BIOSCAN-5M
 
-Here, you will find an overview of the statistical analysis performed on the BIOSCAN-5M DNA nucleotide barcode sequences. 
-For more details, please refer to the [BIOSCAN-5M paper](https://arxiv.org/abs/2406.12723).
+## DNA Barcode Statistical Processing
 
+Here, you will find an overview of the statistical analysis performed on the BIOSCAN-5M DNA nucleotide barcode sequences. 
+
+🔬 For more details on statistical processing of DNA barcode sequences, visit the [barcodemer](https://github.com/zahrag/barcodemetr)
+repository.
 
 ## Statistical Analysis of the identical DNA Barcodes
 
 The DNA barcode statistics for various taxonomic ranks in the BIOSCAN-5M dataset. 
-We indicate the total number of unique barcodes for the samples labelled to a given rank, and the mean, median, and standard deviation of the number of unique barcodes within the subgroupings at that rank. We also show the average across subgroups of the Shannon Diversity Index (SDI) for the DNA barcodes, measured in bits. We report the mean and standard deviation of pairwise DNA barcode sequence distances, aggregated across subgroups for each taxonomic rank.
+We indicate the total number of unique barcodes for the samples labelled to a given rank, and the mean, median, and 
+standard deviation of the number of unique barcodes within the subgroupings at that rank. We also show the average across subgroups of the Shannon Diversity Index (SDI) for the DNA barcodes, measured in bits. We report the mean and standard deviation of pairwise DNA barcode sequence distances, aggregated across subgroups for each taxonomic rank.
 
 
 The following table presents the DNA barcode statistics for various taxonomic ranks in the BIOSCAN-5M dataset. The table includes:
