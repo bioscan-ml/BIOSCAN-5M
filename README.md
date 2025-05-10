@@ -40,7 +40,11 @@ To set up the BIOSCAN-5M project, create the required environment using the prov
 
 ```bash
 conda env create -f bioscan5m.yaml
-``` 
+````
+
+```bash
+conda activate bioscan5m
+````
 
 ### II. Dataset Quick Start
 
