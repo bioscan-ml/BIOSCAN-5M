@@ -36,7 +36,8 @@ If you make use of the BIOSCAN-5M dataset and/or this code repository, please ci
 ## Getting Started with BIOSCAN-5M
 
 ### I. Environment Setup
-To set up the BIOSCAN-5M project, create the required environment using the provided `bioscan5m.yaml` file. Run the following command:
+To set up the BIOSCAN-5M project, create and activate the required environment using the provided `bioscan5m.yaml` file. 
+Run the following command:
 
 ```bash
 conda env create -f bioscan5m.yaml
