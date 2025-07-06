@@ -1,6 +1,6 @@
 ---
 name: Report a record issue
-about: From this template you can report a problem or suggest updates to BIOSCAN-5M.
+about: Report a problem or suggest updates to BIOSCAN-5M from template
 title: "[Record ID]: [Report type]"
 labels: report
 ---
