@@ -13,7 +13,9 @@ labels: report
 
 ### Record ID
 
-Please include the record ID (`processid`). Both here and as part of the issue title.
+Please include the record ID (`processid`), both here and as part of the issue title.
+
+Record ID:
 
 ### Images
 
