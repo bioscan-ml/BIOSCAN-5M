@@ -29,6 +29,7 @@ Please specify what type of issue is being reported by checking one of the items
 
 - [ ] No insect in the image
 - [ ] Insect is not clearly visible
+- [ ] Image contains a broken insect
 - [ ] Image contains multiple insects
 - [ ] Insect is cropped incorrectly
 - [ ] Metadata is not correct
